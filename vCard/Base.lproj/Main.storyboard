@@ -18,22 +18,22 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vBQ-sx-LjP" userLabel="Name">
-                                <rect key="frame" x="180" y="165" width="240" height="30"/>
+                                <rect key="frame" x="180" y="135" width="240" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gmg-wa-pr7" userLabel="Number">
-                                <rect key="frame" x="180" y="201" width="240" height="30"/>
+                                <rect key="frame" x="180" y="180" width="240" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email Address" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMq-k0-O4Y" userLabel="Email">
-                                <rect key="frame" x="180" y="237" width="240" height="30"/>
+                                <rect key="frame" x="180" y="225" width="240" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0q9-GM-dj7">
-                                <rect key="frame" x="224" y="285" width="152" height="30"/>
+                                <rect key="frame" x="224" y="270" width="152" height="30"/>
                                 <state key="normal" title="Attach Using Option 1">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5IB-K3-Fwc">
-                                <rect key="frame" x="224" y="315" width="152" height="30"/>
+                                <rect key="frame" x="224" y="299" width="152" height="30"/>
                                 <state key="normal" title="Attach Using Option 2">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -54,7 +54,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="vBQ-sx-LjP" firstAttribute="centerX" secondItem="vMq-k0-O4Y" secondAttribute="centerX" id="1fn-fw-nE5"/>
-                            <constraint firstItem="0q9-GM-dj7" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="9z0-Ef-i7f"/>
+                            <constraint firstItem="0q9-GM-dj7" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.95" id="9z0-Ef-i7f"/>
                             <constraint firstItem="vBQ-sx-LjP" firstAttribute="width" secondItem="vMq-k0-O4Y" secondAttribute="width" id="NJ9-yC-FS6"/>
                             <constraint firstItem="5IB-K3-Fwc" firstAttribute="centerX" secondItem="0q9-GM-dj7" secondAttribute="centerX" id="O8R-tc-wsh"/>
                             <constraint firstItem="vBQ-sx-LjP" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" multiplier="0.4" id="Tv4-x2-b0h"/>
@@ -62,9 +62,9 @@
                             <constraint firstAttribute="centerX" secondItem="vBQ-sx-LjP" secondAttribute="centerX" id="a8a-fC-NXi"/>
                             <constraint firstItem="0q9-GM-dj7" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="aeW-cG-W4V"/>
                             <constraint firstItem="gmg-wa-pr7" firstAttribute="width" secondItem="vBQ-sx-LjP" secondAttribute="width" id="eJo-Eo-KXq"/>
-                            <constraint firstItem="vBQ-sx-LjP" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.6" id="grK-Gk-FWc"/>
-                            <constraint firstItem="gmg-wa-pr7" firstAttribute="centerY" secondItem="vBQ-sx-LjP" secondAttribute="centerY" multiplier="1.2" id="qQy-el-b4r"/>
-                            <constraint firstItem="vMq-k0-O4Y" firstAttribute="centerY" secondItem="vBQ-sx-LjP" secondAttribute="centerY" multiplier="1.4" id="tE1-6j-5Is"/>
+                            <constraint firstItem="vBQ-sx-LjP" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" multiplier="0.5" id="grK-Gk-FWc"/>
+                            <constraint firstItem="gmg-wa-pr7" firstAttribute="centerY" secondItem="vBQ-sx-LjP" secondAttribute="centerY" multiplier="1.3" id="qQy-el-b4r"/>
+                            <constraint firstItem="vMq-k0-O4Y" firstAttribute="centerY" secondItem="vBQ-sx-LjP" secondAttribute="centerY" multiplier="1.6" id="tE1-6j-5Is"/>
                             <constraint firstItem="gmg-wa-pr7" firstAttribute="centerX" secondItem="vBQ-sx-LjP" secondAttribute="centerX" id="xvC-sW-heD"/>
                         </constraints>
                     </view>
